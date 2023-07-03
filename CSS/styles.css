@@ -69,6 +69,78 @@ h2 {
     font-weight: bold;
 }
 
+/* Square root generator */
+#squareRoot-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #9681EB;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+#squareRoot-form .form-control {
+    margin: 0.5rem; 
+    flex: 0 0 auto; 
+}
+
+
+#squareRoot-form input {
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#squareRoot-form input[type="submit"] {
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    color: #fff;
+    background-color: #164B60;
+    border: 1px solid #164B60;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* Square root result */
+#squareRoot-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: #9681EB;
+    color: #A7EDE7;
+    border-radius: 1rem;
+}
+
+#squareRoot-operations .row {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+#squareRoot-operations .row:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+#squareRoot-operations .result {
+    margin-left: 0.4rem;
+}
+
 /* Multiplication board result */
 #multiplication-operations {
     display: flex;
